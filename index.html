@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="warp">
+
+      <div class="container">
+        <canvas width="800" height="600" id="canvas"></canvas>
+        <canvas width="160" height="160" id="canvas2"></canvas>
+      </div>
+    </div>
+
+    <input type="file" accept="image/*" type="file"" name="imageFile"
+    onchange="upload()">
+    <div class="operation">
+      <button class="btn changeSize">缩放</button>
+      <button class="btn cut">
+        裁剪
+        <div class="cutmenu">截取</div>
+      </button>
+      <button class="btn move">拖拽</button>
+      <button class="btn back">复位</button>
+      <button class="btn big">放大镜</button>
+      <button class="btn a">反相</button>
+      <button class="btn b">黑白</button>
+      <button class="btn c">浮雕</button>
+      <button class="btn draw">画笔</button>
+      <button class="btn setframe">外框</button>
+      <button class="btn download">下载图片</button>
+      <div class="drawmenu">
+        <button class="btn thickness">粗画笔</button>
+      </div>
+    </div>
+    <img class="f" src="Frame.png"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

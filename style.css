@@ -1,0 +1,103 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 900px;
+  min-height: 680px;
+}
+.container{
+  width: 880px;
+  height: 630px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 2%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 65px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(80, 80, 80);
+  border-radius: 2px;
+  margin: 4px;
+}
+
+.btnactive {
+  width: 65px;
+  height: 30px;
+  background-color: rgb(154, 154, 154);
+  border: 2px solid rgb(80, 80, 80);
+  border-radius: 2px;
+  margin: 4px;
+}
+
+.operation button:hover {
+  cursor: pointer;
+}
+
+.operation input {
+  width: 200px;
+}
+
+.download{
+  width: 90px;
+}
+
+.operation{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 880px;
+  margin-top: 4px;
+  position: relative;
+}
+.cut{
+  position: relative
+}
+
+.cutmenu {
+  position: absolute;
+  border: 2px solid rgb(58, 58, 58);
+  background-color: white;
+  top: -35px ;
+  left: -2px;
+  border-radius: 2px;
+  width: 61px;
+  height: 27px;
+  line-height: 30px;
+  display: none;
+}
+
+#canvas2 {
+  pointer-events: none;
+  position: absolute;
+  /* display: none; */
+}
+
+.f{
+  display: none;
+}
+
+
+.drawmenu {
+  position: absolute;
+  top: -30px;
+  left: 620px;
+  margin: 0;
+  display: none;
+}
+
+
+.drawmenu .btn {
+  width: auto;
+  margin: 2px;
+}
+.drawmenu .btnactive {
+  width: auto;
+  margin: 2px;
+}
